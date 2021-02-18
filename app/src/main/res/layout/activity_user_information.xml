@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userInformationActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/ic_close_circular_button_symbol"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:text="Loading...."
+        android:layout_margin="20dp"
+        android:id="@+id/infoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/infoAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Loading...."
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/infoCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Loading...."
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/infoGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Loading...."
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/infoEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Loading...."
+        android:textColor="#000000"/>
+
+</LinearLayout>

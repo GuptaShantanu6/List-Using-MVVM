@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">List_Using_MVVM</string>
+    <string name="intellify">Intellify</string>
+    <string name="enter_your_email">enter your email</string>
+    <string name="enter_your_email_id">Enter your Email-ID</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account">Already have an Account ?</string>
+</resources>
